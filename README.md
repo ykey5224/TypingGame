@@ -1,4 +1,4 @@
-# typingGame
+# TypingGame
 
 Typing Game with Vanilla JS for KAKAOPAY
 
