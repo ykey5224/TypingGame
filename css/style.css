@@ -1,0 +1,60 @@
+.game-app{
+    width: 90%;
+    margin: 0 auto;
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time-info{
+    margin-top:1rem;
+    font-size:30px;
+    display:flex;
+    justify-content: space-between;
+    width: 70%
+}
+.time, .score{
+    margin-top:2rem;
+    font-size:30px;
+}
+.word-quiz{
+    margin-top:3rem;
+    width:100%;
+    font-size:50px;
+    text-align:center;
+    color : #3e9cdb;
+}
+.word-input{
+    margin-top:3rem;
+    padding:1rem;
+    width:300px;
+    border-radius: 15px;
+    background:#3e9cdb;
+    text-align:center;
+    color:White;
+    font-size:20px;
+}
+input::placeholder{
+    color:White;
+}
+
+.start-button,.restart{
+    width :200px;
+    margin-top: 3rem;
+    background:#3e9cdb;
+    border-radius: 15px;
+    color:white;
+    padding:8px;
+}
+
+.score-text, .score-result{
+    margin-top:2rem;
+    width:100%;
+    font-size:50px;
+    text-align:center;
+    color : #3e9cdb;
+}
+.result-text{
+    font-size:35px;
+}
